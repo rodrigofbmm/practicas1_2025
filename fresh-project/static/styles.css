@@ -1,0 +1,50 @@
+/* static/style.css */
+.text-with-button-container {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #c6f6d5; /* Verde clarito */
+}
+
+.text-with-button-text {
+  color: #4a5568; /* Color de texto gris oscuro */
+  margin-right: 1rem; /* Espacio entre el texto y el botón */
+}
+
+/* static/style.css */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #c6f6d5; /* Verde clarito */
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.text-with-button-text {
+  color: #4a5568; /* Color de texto gris oscuro */
+  margin-right: 1rem; /* Espacio entre el texto y el botón */
+}
+
+.separator {
+  border: 1px solid black;
+  width: 100%;
+  margin: 1rem 0; /* Espacio arriba y abajo de la línea */
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: flex-end; /* Alinea el botón a la derecha */
+}
